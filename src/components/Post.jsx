@@ -13,7 +13,7 @@ export function Post() {
                     </div>
                 </div>
 
-                <time title='11 de Maio à s 08:13h' dateTime='2022-05-11 08:13:23'>Publicado há 1h</time>
+                <time title='11 de Maio às 08:13h' dateTime='2022-05-11 08:13:23'>Publicado há 1h</time>
             </header>
             <div className={styles.content}>
                 <p>Fala galeraa 👋</p>
@@ -30,8 +30,9 @@ export function Post() {
                 <textarea
                     placeholder='Deixe um comentario'
                 />
-
-                <button type='submit'></button>
+                <footer>
+                    <button type='submit'>Comentar</button>
+                </footer>
             </form>
         </article>
     );
